@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+.icon {
+  margin-right: 72px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a.navbar-brand {
+  margin-left: 37px;
+  color: white;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav.navbar.navbar-expand-lg.navbar-light {
+  background-color: #6a6868;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  background-color: #a9a9a9a1;
+}
+.card.mb-3 {
+  width: 407px;
+  margin-top: 105px;
+  margin-left: 89px;
+}
+.card.mb-3 {
+  width: 505px;
+  margin-top: 69px;
+  margin-left: 124px;
+  border-radius: 0px;
+  height: 271px;
+}
+h1.products {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  margin-top: 34px;
+  color: white;
+}
+.col-md-4 {
+  padding: 32px;
+}
+.col-md-8 {
+  height: 215px;
+}
+button.btn.btn-outline-secondary {
+  margin-top: -6px;
+  margin-left: 37px;
+  width: 147px;
+  position: inherit;
+}
+img {
+  width: 157px;
+  height: 201px;
+}
+p {
+  margin-top: 16px;
+  margin-bottom: 1rem;
+  margin-left: 35px;
+}
+h5.card-title {
+  padding-left: 28px;
+  padding-top: 13px;
+}
+.input-group.rounded {
+  width: 241px;
+  margin-left: 538px;
+  margin-top: 27px;
+}
+i.fas.fa-shopping-cart {
+  cursor: pointer;
+}
+i.fas.fa-shopping-cart {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.col-md-6 {
+    margin-left: -28px;
+}
+nput.form-control.rounded {
+  margin-left: 8px;
+  margin-right: -25px;
 }
