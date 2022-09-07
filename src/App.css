@@ -1,27 +1,21 @@
 .icon {
   margin-right: 72px;
 }
+body {
+  background-color: #a9a9a9a1;
+}
+img{
+  max-width: 100%;
+}
+p{
+  margin: 0;
+}
 a.navbar-brand {
   margin-left: 37px;
   color: white;
 }
 nav.navbar.navbar-expand-lg.navbar-light {
   background-color: #6a6868;
-}
-body {
-  background-color: #a9a9a9a1;
-}
-.card.mb-3 {
-  width: 407px;
-  margin-top: 105px;
-  margin-left: 89px;
-}
-.card.mb-3 {
-  width: 505px;
-  margin-top: 69px;
-  margin-left: 124px;
-  border-radius: 0px;
-  height: 271px;
 }
 h1.products {
   display: flex;
@@ -30,31 +24,29 @@ h1.products {
   margin-top: 34px;
   color: white;
 }
-.col-md-4 {
-  padding: 32px;
+.product_card{
+  border-radius: 0px;
+  background-color: #fff;
+  height: 100%;
 }
-.col-md-8 {
-  height: 215px;
+.product_card .thumImg{
+  border-radius: 0px;
+  background-color: #fff;
+  height: 100%;
+  /* display: flex;
+  align-items: center; */
 }
-button.btn.btn-outline-secondary {
-  margin-top: -6px;
-  margin-left: 37px;
+.product_card .thumImg img{
+  object-fit: cover;
+}
+.product_card .card-body {
+  padding: 1rem;
+}
+.product_card button {
   width: 147px;
-  position: inherit;
+  margin-top: 10px;
 }
-img {
-  width: 157px;
-  height: 201px;
-}
-p {
-  margin-top: 16px;
-  margin-bottom: 1rem;
-  margin-left: 35px;
-}
-h5.card-title {
-  padding-left: 28px;
-  padding-top: 13px;
-}
+
 .input-group.rounded {
   width: 241px;
   margin-left: 538px;
@@ -68,10 +60,82 @@ i.fas.fa-shopping-cart {
 }
 
 
-.col-md-6 {
-    margin-left: -28px;
-}
-nput.form-control.rounded {
+input.form-control.rounded {
   margin-left: 8px;
   margin-right: -25px;
+}
+p.card-text1 {
+  margin-top: -23px;
+}
+p.card-text2 {
+  margin-left: 136px;
+  margin-top: -42px;
+}
+p.card-text3 {
+  margin-left: 294px;
+  margin-top: -39px;
+}
+img.imgs {
+  /* object-fit: cover; */
+  object-fit: cover;
+  width: 350px;
+  height: 117px;
+}
+button.btn.btn-outline-info {
+  /* margin-top: -311px; */
+  margin-left: 212px;
+  margin-top: 1px;
+  width: 122px;
+}
+h5.card-title1 {
+  margin-top: 11px;
+  margin-left: 10px;
+  font-size: 19px;
+  font-weight: 300;
+}
+.offcanvas-body {
+  background-color: #dceefd96;
+  overflow: auto;
+  margin-top: 9px;
+}
+
+.offcanvas-body .card.w-90 {
+  margin-bottom: 20px;
+  padding-bottom: 4px;
+}
+
+
+.offcanvas-header {
+  background-color: #dceefd
+}
+button.btn.btn-outline-success {
+  margin-left: 1147px;
+}
+
+.offcanvascardtext {
+  padding-bottom: -1px;
+  margin-left: 25px;
+  margin-top: -37px;
+}
+.offcanvascardtext1 {
+  margin-left: 24px;
+}
+.offcanvascardtext2 {
+  margin-left: 26px;
+  padding-top: 2px;
+}
+.removebutton {
+  margin-top: 21px;
+  margin-left: -9px;
+}
+.searchinput {
+  margin-bottom: 30px;
+}
+.buttonsuccess {
+  margin-top: -38px;
+  margin-left: -456px;
+}
+.butonprimary {
+  margin-top: -11px;
+  margin-left: 611px;
 }
